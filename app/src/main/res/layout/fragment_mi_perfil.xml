@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Fragment.MiPerfilFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/chava"
+            app:civ_border_color="#EEEEEE"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            app:civ_shadow_radius="10"
+            android:layout_gravity="center_horizontal"
+            app:civ_shadow_color="#8BC34A"/>
+
+    <LinearLayout
+            android:paddingTop="200dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+        <TextView
+                android:id="@+id/Nombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:text="@string/nav_header_title"/>
+        <TextView
+                android:id="@+id/Dat"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:text="Mis datos"/>
+        <TextView
+                android:id="@+id/Datos"
+                android:layout_marginTop="8dp"
+                app:layout_goneMarginTop="8dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:id="@+id/Hob"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:text="Pasatiempos"/>
+
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+            <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/pro"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    android:gravity="center"
+                    app:civ_shadow_color="#8BC34A"/>
+                <com.mikhaellopez.circularimageview.CircularImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/funcionamiento"
+                        app:civ_border_color="#EEEEEE"
+                        app:civ_border_width="4dp"
+                        app:civ_shadow="true"
+                        app:civ_shadow_radius="10"
+                        android:layout_marginLeft="0dp"
+                        android:layout_gravity="center"
+                        app:civ_shadow_color="#8BC34A"/>
+                <com.mikhaellopez.circularimageview.CircularImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/apoyar"
+                        app:civ_border_color="#EEEEEE"
+                        app:civ_border_width="4dp"
+                        app:civ_shadow="true"
+                        app:civ_shadow_radius="10"
+                        android:gravity="center"
+                        app:civ_shadow_color="#8BC34A">
+
+                </com.mikhaellopez.circularimageview.CircularImageView>
+            </LinearLayout>
+        </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:id="@+id/hob2"
+                        android:layout_marginTop="8dp"
+                        app:layout_goneMarginTop="8dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginRight="8dp"
+                        android:gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"/>
+
+                <TextView
+                        android:id="@+id/hob3"
+                        android:layout_marginTop="8dp"
+                        app:layout_goneMarginTop="8dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginRight="9dp"
+                        android:gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"/>
+                <TextView
+                        android:id="@+id/hob4"
+                        android:layout_marginTop="8dp"
+                        app:layout_goneMarginTop="8dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginRight="9dp"
+                        android:gravity="center"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"/>
+            </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

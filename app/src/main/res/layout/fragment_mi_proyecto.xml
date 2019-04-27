@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".Fragment.MiProyectoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ImageView
+                    android:paddingTop="5dp"
+                    android:id="@+id/encabezadopro"
+                    android:background="@drawable/ceart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:paddingTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Encabezadopro"
+                    android:gravity="center"
+                    android:textSize="25dp"
+                    android:text="Acerca de mi proyecto"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+            <TextView
+                    android:id="@+id/primerpa"
+                    android:layout_marginTop="8dp"
+                    app:layout_goneMarginTop="8dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:id="@+id/subtitulo"
+                    android:textSize="25dp"
+                    android:text="¿Cual es la probelmatica?"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+            <TextView
+                    android:id="@+id/segundopa"
+                    android:layout_marginTop="8dp"
+                    app:layout_goneMarginTop="8dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:id="@+id/subtitulo2"
+                    android:textSize="25dp"
+                    android:text="Objetivo General"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+            <TextView
+                    android:id="@+id/tercerpa"
+                    android:layout_marginTop="8dp"
+                    app:layout_goneMarginTop="8dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:id="@+id/cuartopa"
+                    android:textSize="25dp"
+                    android:text="Objetivos Específicos"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+            <TextView
+                    android:id="@+id/cuartapa"
+                    android:layout_marginTop="8dp"
+                    app:layout_goneMarginTop="8dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
